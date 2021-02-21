@@ -1,0 +1,14 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "sample.js" ]
+   },
+   "browser_action": {
+      "default_popup": "popup.html",
+      "default_title": "Pomodoro Timer"
+   },
+  "description": "Simple Pomodoro timer to help you stay productive!",
+  "manifest_version": 2,
+   "name": "Pomodoro Timer",
+   "version": "1.0"
+}

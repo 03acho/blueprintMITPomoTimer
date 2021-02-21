@@ -1,0 +1,47 @@
+<head>
+    <script src="popup.js"></script>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+
+<head>
+    <meta charset="utf-8">
+    <link href="popup.css" rel="stylesheet" type="text/css" />
+</head>
+<style type="text/css">
+body{
+  min-width: 350px; /* your desired width */
+  max-width: 100%;
+  min-height: 450px;
+  max-height: 100%;
+  position: relative;
+  vertical-align:middle;
+}
+</style>
+<body>
+    <div class='demo'>
+        <div class='clearfix'>
+            <div id="work" class="shadow">
+                Work:
+            </div>
+            <div id="workTimer" class="timer">
+                <p id="workMin">25</p><p class="semicolon">:</p><p id="workSec">00</p>
+            </div>
+
+            <div id="break" class="shadow-2">
+                <p>Break:</p>
+            </div>
+            <div id="breakTimer" class="timer">
+                <p id="breakMin">5</p><p class="semicolon"> : </p><p id="breakSec">00</p>
+            </div>
+            <div id="cycles" class="shadow-3">
+                <p>Cycles:</p>
+                <p id="counter" class="timer">0</p>
+            </div>
+        </div>
+        <button id="start" class="btn">Start</button>
+        <button id="stop" class="btn">Pause</button>
+        <button id="reset" class="btn">Reset</button>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
